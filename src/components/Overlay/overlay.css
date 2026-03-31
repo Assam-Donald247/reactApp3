@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.Overlay {
+  display: flex;
+  height: 800px;
+  /* padding: 90px 495px; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--alpha-20, rgba(10, 10, 10, 0.57));
+  /* z-index: -1;
+  position: relative; */
+  /* backdrop-blur/xs */
+  backdrop-filter: blur(calc(var(--blur-xs, 4px) / 2));
+  z-index: 1;
+}

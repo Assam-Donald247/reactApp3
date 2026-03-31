@@ -1,0 +1,30 @@
+
+.HeaderBar {
+  display: flex;
+  width: 418px;
+  height: 64px;
+  /* padding: 21.333px 17.778px; */
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  /* border-bottom: 1.333px solid #050800; */
+  /* border-radius: 16px 16px 16px 16px; */
+  /* text-align: center; */
+  /* backdrop-filter: blur(1.7777777910232544px); */
+}
+
+.HeaderBar > p {
+  
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  padding-right: 100px;
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.HeaderBar > a {
+  padding-right: 99px;
+}

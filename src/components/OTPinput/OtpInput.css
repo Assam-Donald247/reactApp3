@@ -1,0 +1,33 @@
+.OtpGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 8px);
+  align-self: stretch;
+
+  /* shadow/xs */
+  box-shadow: var(--shadow-xs-offset-x, 0) var(--shadow-xs-offset-y, 1px)
+    var(--shadow-xs-blur-radius, 2px) var(--shadow-xs-spread-radius, 0)
+    var(--shadow-xs-color, rgba(10, 18, 2, 0.05));
+}
+
+.OtpInput {
+  border-radius: var(--border-radius-rounded-md, 8px);
+  border: 1.5px solid var(--base-secondary, #d8ff83);
+
+  /* focus/default */
+  box-shadow: 0 0 0 3px var(--custom-outline, rgba(216, 255, 131, 0.5));
+  text-align: center;
+  font-weight: var(--font-weight-normal, 400);
+  font-size: xx-large;
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  display: flex;
+  width: 56px;
+  height: var(--height-h-16, 64px);
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: var(--border-width-border, 1px) solid var(--base-ring, #7d7e7d);
+}

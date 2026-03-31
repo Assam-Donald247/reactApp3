@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+.VerifyPhoneCont {
+  display: flex;
+  padding: 50px 20px 32px 20px;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+  height: 0;
+}
+
+.VerifyPhone {
+  margin-top: 300px;
+}
+
+.VerifyPhone > h1 {
+  color: var(--base-foreground, #fff);
+  font-family: "Akira";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: var(--font-weight-semibold, 800);
+  line-height: 100%; /* 18px */
+  letter-spacing: -0.18px;
+}
+
+.VerifyPhone > p {
+  color: var(--base-muted-foreground, #a9aaa9);
+  /* text-sm/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--text-sm-line-height, 20px); /* 142.857% */
+  padding-bottom: 40px;
+}
+
+.edit {
+  /* display: flex; */
+  color: var(--base-secondary, #d8ff83);
+  /* margin-top: 40px; */
+  /* text-sm/leading-none/medium */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 100%; /* 14px */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.VerifyPhone > p > span {
+  color: var(--base-secondary, #d8ff83);
+
+  /* text-sm/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--text-sm-line-height, 20px);
+}
+
+.OtpField {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-3, 12px);
+  align-self: stretch;
+  padding-bottom: 20px;
+}
+
+.Continue {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  padding: 12px var(--spacing-8, 32px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 8px);
+  align-self: stretch;
+  border-radius: var(--border-radius-rounded-md, 8px);
+  background: var(--base-secondary, #d8ff83);
+
+  /* shadow/xs */
+  box-shadow: var(--shadow-xs-offset-x, 0) var(--shadow-xs-offset-y, 1px)
+    var(--shadow-xs-blur-radius, 2px) var(--shadow-xs-spread-radius, 0)
+    var(--shadow-xs-color, rgba(0, 0, 0, 0.05));
+  color: var(--base-primary-foreground, #171717);
+
+  /* text-sm/leading-normal/medium */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: var(--text-sm-line-height, 20px); /* 142.857% */
+}
+
+.CodeExp {
+  color: var(--base-muted-foreground, #a9aaa9);
+  text-align: center;
+
+  /* text-sm/leading-none/medium */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 100%; /* 14px */
+}
+
+.OtpField > p {
+  color: var(--base-muted-foreground, #a9aaa9);
+  text-align: center;
+
+  /* text-sm/leading-none/medium */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 100%; /* 14px */
+}
+
+.AltOtp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  gap: 10px;
+}
+
+.AltOtp > a {
+  align-self: stretch;
+  color: var(--base-secondary, #d8ff83);
+  text-align: center;
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 14px */
+  
+}

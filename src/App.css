@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Akira';
+    src: url('./fonts/Akira\ Expanded\ Demo.otf');
+}
+
+@font-face {
+  font-family: 'ibm';
+  src: url('./fonts/IBMPlexSans-VariableFont_wdth\,wght.ttf');
+}
