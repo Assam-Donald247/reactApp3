@@ -1,12 +1,10 @@
-
-
 .VerifyCont {
   width: 420px;
   height: 750px;
   border-radius: 16px;
   /* border: 2px solid var(--base-border, rgba(255, 255, 255, 0.1)); */
   /* background: #0c0c0c; */
-  background-image: url('back-img.jpg');
+  background-image: url("back-img.jpg");
   background-size: cover;
   background-position: center;
   /* z-index: 2; */
@@ -25,5 +23,3 @@
   /* padding: 32px 20px 32px 20px;
   border-radius: 32px 32px 32px 32px; */
 }
-
-
