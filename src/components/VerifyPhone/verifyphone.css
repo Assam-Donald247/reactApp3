@@ -1,4 +1,4 @@
-@import "tailwindcss";
+
 
 .VerifyPhoneCont {
   display: flex;
@@ -44,15 +44,15 @@
   font-style: normal;
   font-weight: var(--font-weight-medium, 500);
   line-height: 100%; /* 14px */
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: none;
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: solid; */
+  /* text-decoration-skip-ink: none; */
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
 }
 
-.VerifyPhone > p > span {
+.edit > a {
   color: var(--base-secondary, #d8ff83);
 
   /* text-sm/leading-normal/normal */

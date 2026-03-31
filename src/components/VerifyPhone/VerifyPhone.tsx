@@ -13,7 +13,7 @@ function VerifyPhone() {
         <p>
           We’ve sent a 4-digit code to your number via SMS enter it below.  
           <span className="edit">
-            <a href=""> Edit Number</a>
+            <a href=""> Edit Number.</a>
           </span>
         </p>
         <div className="OtpField">
