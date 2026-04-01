@@ -1,3 +1,5 @@
+/* @import "tailwindcss"; */
+
 .Overlay {
   display: flex;
   height: 800px;
